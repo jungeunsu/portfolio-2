@@ -4,10 +4,14 @@ export default function Home() {
   return (
     <main className="p-10 text-center">
       {/* 헤더 섹션 */}
-      <h1 className="text-4xl font-bold mb-2">Welcome to My Portfolio</h1>
-      <p className="text-lg text-gray-600 mb-4">
-        안녕하세요, 저는 23학번 정보보호학과 정은수입니다. 이곳은 저의
-        포트폴리오 웹사이트입니다.
+      <h1 className="text-3xl font-bold ">About</h1>
+      <p className="text-lg text-gray-400 mb-4">
+        저는 중부대학교 정보보호학과에 재학중인 23학번 정은수 입니다.
+        <br />
+        mbti는 istp이고 노래듣는 것과 영상보는 것을 좋아합니다.
+        <br />
+        진로는 아직 정하지 않았지만 관심있는 분야는 보안 분야로 디지털포렌식,
+        보안컨설팅 등이 있습니다.
       </p>
       <div className="flex justify-center space-x-4 mb-8">
         <Link href="/repos">
