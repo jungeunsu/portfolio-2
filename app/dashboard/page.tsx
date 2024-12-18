@@ -59,8 +59,8 @@ export default function MidtermCompare() {
             className="rounded-lg mx-auto mb-4"
           />
           <p className="text-gray-600">
-            디자인과 기능을 개선하고 로그인 기능과 프로젝트 상세 페이지를
-            추가했습니다.
+            디자인과 기능을 개선하고 로그인 기능과 프로젝트 페이지에 프로젝트
+            목록들을 추가했습니다.
           </p>
         </div>
       </section>
