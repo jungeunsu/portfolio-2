@@ -12,7 +12,7 @@ import React from 'react'
 export default function Header() {
   return (
     <div>
-      <nav className="bg-blue-700 py-4 px-8">
+      <nav className="bg-gray-800 py-4 px-8">
         <div className="flex items-center justify-between container">
           <div className="flex items-center font-bold">
             <Link href="/">
@@ -27,7 +27,7 @@ export default function Header() {
               href="/courses"
               className="text-gray-300 hover:text-white mr-4"
             >
-              Highlight
+              Projects
             </Link>
           </div>
           <div className="flex items-center font-bold">
@@ -51,7 +51,7 @@ export default function Header() {
                 href="/dashboard"
                 className="text-gray-300 hover:text-white mr-4"
               >
-                Projects
+                Midterm
               </Link>
               <Link
                 href="/dashboard-client"
